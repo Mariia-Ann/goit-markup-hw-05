@@ -736,36 +736,6 @@ button {
   color: var(--color-brand);
 }
 
-/* good end*/
-
-.modal-checkbox-input:checked + .modal-checkbox-check .modal-checkbox-icon {
-  /* opacity: 1;
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background: url(../images/icons.svg#icon-checkbox.svg) no-repeat;
-  cursor: pointer; */
-}
-
-/* .modal-checkbox-input {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  cursor: pointer;
-} */
-/*
-.modal-checkbox-icon {
-  opacity: 0;
-}
-
-.modal-checkbox-icon:focus {
-  opacity: 1;
-} */
-
 .modal-button {
   display: block;
   min-width: 169px;
@@ -781,7 +751,6 @@ button {
   border: none;
   border-radius: 4px;
   margin: 0 auto;
-
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-button:hover,
