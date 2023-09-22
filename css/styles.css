@@ -735,7 +735,7 @@ button {
   fill: transparent;
 }
 
-.modal-checkbox-input:checked + .modal-checkbox-check {
+.modal-checkbox-input:checked + .modal-checkbox-label .modal-checkbox-check .modal-checkbox-icon {
   background-color: var(--color-put);
   border: none;
   fill: var(--color-cloud);
@@ -758,16 +758,15 @@ button {
   cursor: pointer; */
 }
 
-/* .modal-checkbox-input {
+.modal-checkbox-input {
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0;
   top: 0;
-  background: url(../images/icons.svg#icon-check-click.svg) no-repeat;
   cursor: pointer;
 }
-
+/*
 .modal-checkbox-icon {
   opacity: 0;
 }
